@@ -45,12 +45,12 @@ function keyPressed() {
 	}
 	if (keyCode == MinusSign) {
 		// checks if the Minus key was pressed
-		Background -= 5;
+		Background -= 10;
 		// changes the value of the Background, must press the mouse to update 
 	}
 	if (keyCode == PlusSign) {
 		// checks if the Plus key was pressed 
-		Background += 5;
+		Background += 10;
 		// changes the value of the Background, must press the mouse to update 
 	}
 }
